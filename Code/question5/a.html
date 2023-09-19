@@ -1,0 +1,71 @@
+<!-- Q5 - a. Create a sign up from -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+  </head>
+  <body>
+    <h1>Sign Up</h1>
+    <form action="">
+      <label for="fname">First Name:</label>
+      <input
+        style="display: block"
+        type="text"
+        name=""
+        id="fname"
+        pattern=".{3,}"
+        required
+      />
+      <label for="lname">Last Name:</label>
+      <input
+        style="display: block"
+        type="text"
+        name=""
+        id="lname"
+        pattern=".{3,}"
+        required
+      />
+      <label for="email">Email:</label>
+      <input
+        style="display: block"
+        type="email"
+        name=""
+        id="email"
+        pattern=".{3,}"
+        required
+      />
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        name=""
+        id="password"
+        style="display: block"
+        required
+        pattern=".{6,}"
+      />
+      <label for="cpassword">Confirm Password:</label>
+      <input
+        type="password"
+        name=""
+        id="cpassword"
+        style="display: block"
+        required
+        pattern=".{6,}"
+      />
+      <label for="age">Age:</label>
+      <input style="display: block" type="number" name="" id="age" min="0" />
+      <label for="gender">Gender: </label>
+      <select name="" id="gender" style="display: block" required>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Other">Other</option>
+      </select>
+      <input type="checkbox" name="" id="term" />
+      <label for="terms">Agree to terms and conditions</label>
+      <button style="display: block">Submit</button>
+    </form>
+  </body>
+</html>
